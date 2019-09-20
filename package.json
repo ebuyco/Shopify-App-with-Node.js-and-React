@@ -1,0 +1,28 @@
+{
+  "name": "Shopify-App-with-Node.js-and-React",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebuyco/Shopify-App-with-Node.js-and-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebuyco/Shopify-App-with-Node.js-and-React/issues"
+  },
+  "homepage": "https://github.com/ebuyco/Shopify-App-with-Node.js-and-React#readme",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
