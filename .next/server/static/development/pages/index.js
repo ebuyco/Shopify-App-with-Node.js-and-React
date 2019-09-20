@@ -108,19 +108,21 @@ var _jsxFileName = "/Users/ernie/Projects/wesbos/Shopify-App-with-Node.js-and-Re
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Index = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 2
-  },
-  __self: undefined
-}, __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 3
-  },
-  __self: undefined
-}, "Sample app using React and Next.js"));
+var Index = function Index() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, "Sample app using React and Next.js"));
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 

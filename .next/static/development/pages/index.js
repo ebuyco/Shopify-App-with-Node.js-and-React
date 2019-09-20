@@ -50,13 +50,13 @@ var _jsxFileName = "/Users/ernie/Projects/wesbos/Shopify-App-with-Node.js-and-Re
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Index = function Index() {
-  return __jsx("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
     },
     __self: this
-  }, __jsx("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
