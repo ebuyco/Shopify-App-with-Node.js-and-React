@@ -19,7 +19,7 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
-const { SHOPIFY_API_SECRET_KEY, SHOPIFY_API_KEY } = process.env;
+const { SHOPIFY_API_KEY, SHOPIFY_API_SECRET_KEY } = process.env;
 
 app.prepare().then(() => {
   const server = new Koa();

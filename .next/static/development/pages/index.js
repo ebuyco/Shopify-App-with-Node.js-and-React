@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2Fwesbos%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2Fwesbos%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2FShopify%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2FShopify%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -45,24 +45,11 @@ module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/ernie/Projects/wesbos/Shopify-App-with-Node.js-and-React/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, "Sample app using React and Next.js"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sample app using React and Next.js"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -70,13 +57,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2Fwesbos%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2FShopify%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2Fwesbos%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2Fwesbos%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2FShopify%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fernie%2FProjects%2FShopify%2FShopify-App-with-Node.js-and-React%2Fpages%2Findex.js!./");
 
 
 /***/ }),
