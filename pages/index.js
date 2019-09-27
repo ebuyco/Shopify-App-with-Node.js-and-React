@@ -5,8 +5,10 @@ import ResourceListWithProducts from '../components/ResourceList';
 
 const img = 'https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg';
 
+/* eslint-disable */
 class Index extends React.Component {
   state = { open: false };
+
   render() {
     const emptyState = !store.get('ids');
     return (
@@ -14,9 +16,10 @@ class Index extends React.Component {
         <TitleBar primaryAction={{
           content: 'Select products',
           onAction: () => this.setState({ open: true }),
-        }} />
+        }}
+        />
         <ResourcePicker
-          resourceType="Product"
+          resourceType='Product'
           showVariants={false}
           open={this.state.open}
           onSelection={(resources) => this.handleSelection(resources)}
@@ -25,7 +28,7 @@ class Index extends React.Component {
         {emptyState ? (
           <Layout>
             <EmptyState
-              heading="Discount your products temporarily"
+              heading='Discount your products temporarily'
               action={{
                 content: 'Select products',
                 onAction: () => this.setState({ open: true }),
@@ -36,8 +39,8 @@ class Index extends React.Component {
             </EmptyState>
           </Layout>
         ) : (
-            <ResourceListWithProducts />
-          )}
+          <ResourceListWithProducts />
+        )}
       </Page>
     );
   }

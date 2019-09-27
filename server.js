@@ -1,5 +1,6 @@
 require('isomorphic-fetch');
 const dotenv = require('dotenv');
+
 dotenv.config();
 const Koa = require('koa');
 const next = require('next');
@@ -36,7 +37,7 @@ app.prepare().then(() => {
       scopes: ['read_products', 'write_products'],
       async afterAuth(ctx) {
         const { shop, accessToken } = ctx.session;
-        ctx.cookies.set("shopOrigin", shop, { httpOnly: false });
+        ctx.cookies.set('shopOrigin', shop, { httpOnly: false });
 
         const registration = await registerWebhook({
           address: `${HOST}/webhooks/products/create`,

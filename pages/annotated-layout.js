@@ -10,8 +10,9 @@ import {
   TextField,
   TextStyle,
 } from '@shopify/polaris';
-
+/*eslint-disable*/
 class AnnotatedLayout extends React.Component {
+
   state = {
     discount: '10%',
     enabled: false,
@@ -26,8 +27,8 @@ class AnnotatedLayout extends React.Component {
       <Page>
         <Layout>
           <Layout.AnnotatedSection
-            title="Default discount"
-            description="Add a product to Sample App, it will automatically be discounted."
+            title='Default discount'
+            description='Add a product to Sample App, it will automatically be discounted.'
           >
             <Card sectioned>
               <Form onSubmit={this.handleSubmit}>
@@ -35,10 +36,10 @@ class AnnotatedLayout extends React.Component {
                   <TextField
                     value={discount}
                     onChange={this.handleChange('discount')}
-                    label="Discount percentage"
-                    type="discount"
+                    label='Discount percentage'
+                    type='discount'
                   />
-                  <Stack distribution="trailing">
+                  <Stack distribution='trailing'>
                     <Button primary submit>
                       Save
                     </Button>
@@ -48,8 +49,8 @@ class AnnotatedLayout extends React.Component {
             </Card>
           </Layout.AnnotatedSection>
           <Layout.AnnotatedSection
-            title="Price updates"
-            description="Temporarily disable all Sample App price updates"
+            title='Price updates'
+            description='Temporarily disable all Sample App price updates'
           >
             <SettingToggle
               action={{
@@ -59,7 +60,7 @@ class AnnotatedLayout extends React.Component {
               enabled={enabled}
             >
               This setting is{' '}
-              <TextStyle variation="strong">{textStatus}</TextStyle>.
+              <TextStyle variation='strong'>{textStatus}</TextStyle>.
             </SettingToggle>
           </Layout.AnnotatedSection>
         </Layout>
@@ -74,14 +75,10 @@ class AnnotatedLayout extends React.Component {
     console.log('submission', this.state);
   };
 
-  handleChange = (field) => {
-    return (value) => this.setState({ [field]: value });
-  };
+  handleChange = (field) => (value) => this.setState({ [field]: value });
 
   handleToggle = () => {
-    this.setState(({ enabled }) => {
-      return { enabled: !enabled };
-    });
+    this.setState(({ enabled }) => ({ enabled: !enabled }));
   };
 }
 

@@ -39,14 +39,14 @@ const getSubscriptionUrl = async (ctx, accessToken, shop) => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      "X-Shopify-Access-Token": accessToken,
+      'X-Shopify-Access-Token': accessToken,
     },
     body: query
-  })
+  });
 
   const responseJson = await response.json();
-  const confirmationUrl = responseJson.data.appSubscriptionCreate.confirmationUrl
-  return ctx.redirect(confirmationUrl)
+  const confirmationUrl = responseJson.data.appSubscriptionCreate.confirmationUrl;
+  return ctx.redirect(confirmationUrl);
 };
 
 module.exports = getSubscriptionUrl;
